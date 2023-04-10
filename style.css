@@ -1,0 +1,163 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000000;
+  color:#fff;
+}
+
+/* Navbar */
+
+
+
+/* Main */
+
+main {
+  background-color: #1a4b07;
+}
+
+.User_Options_Group {
+  display: flex;
+}
+
+.input-group {
+  max-width: fit-content;
+}
+
+.PreGameStatus, .PreGameStatus2 {
+  color: white;
+}
+
+.Deck_Counter {
+  min-height: 28px;
+}
+
+.Set_Game_Button {
+  display: inline-block;
+}
+
+.Round_Status {
+  color: lightgreen;
+  min-height: 50px;
+}
+
+.TValue {
+  font-size: 200%;
+}
+
+.Card_Field {
+  width: 600px;
+  background-color: rgb(48, 107, 48); 
+  border-radius: 3px;
+}
+
+.Hole_Card {
+  font-family: 'Playing Cards';
+  width: 600px;
+  font-size: 800%;
+  display: inline;
+  opacity: 0%;
+}
+
+.Dealers_Cards {
+  font-family: 'Playing Cards';
+  width: 600px;
+  font-size: 800%;
+  display: inline;
+}
+
+.Players_Cards {
+  font-family: 'Playing Cards';
+  width: 600px;
+  font-size: 800%;
+  display: inline;
+}
+
+.Place_Bet_Counter {
+  display: inline-block;
+  min-width: 15px;
+}
+
+.Insurance_Button {
+  display: none;
+}
+
+.Bankroll_Counter, .Bet_Amount_Counter, .Win_Amount_Counter {
+  display: inline-block;
+  min-width: 11px;
+}
+
+/* Footer */
+
+footer {
+  max-width: 1920px;
+  overflow-x: hidden; 
+  color: #767676;
+}
+
+#Footer {
+  width: 1920px;
+}
+
+footer:hover, footer:hover a {
+  color: #ffffff;
+}
+
+footer:hover svg {
+  color: #ffffff;
+}
+
+footer a {
+  color: #767676;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #01ecc9ac;
+}
+
+@media (min-width:1444.95px) {
+  #Contact1445Align {
+  text-align: end !important;
+  padding-right: 115px;
+  }
+  #ContactIcons1445Align {
+    justify-content: end !important;
+  }
+}
+
+.Altcademy {
+  transition: 0.3s all ease-in-out;
+}
+
+.Altcademy:hover svg, 
+.Altcademy:active svg {
+  filter: drop-shadow(0 0 5px #1647fb);
+}
+
+.list-inline-item svg {
+  border-radius: 10px;
+  transition: all .15s ease-in-out;
+}
+
+.list-inline-item svg:hover {
+  color: #01ecc9ac;
+  transform: scale(1.05);
+}
+
+/* Font(s) */
+
+@font-face {
+  font-family: 'Playing Cards';
+  src: url(CARDS.woff);
+};
